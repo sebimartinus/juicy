@@ -1,0 +1,452 @@
+@media only screen and (max-width:330px)
+{
+
+  .dropdowncont-content {
+    min-width: 10%;
+  }
+  .dropdowncont-content a {
+
+    font-size:0.9em;
+    padding: 5px 8px;
+  }
+  .dropbtnprod{
+    font-size:1em;
+  }
+  .MandarineM{
+    height:55px;
+  }
+  
+   .logo{
+      margin-top:5px;
+      height:45px;
+    }
+  .barasearch[type=text]{
+      padding: 0.2%;
+      font-size: 12px;
+      color:#001A33;
+      width:50%;
+      margin-top:5%;
+    }
+    .cos{
+      font-size:0.8em;
+    }
+    .cart{
+      height:20%;
+    }
+  .buttonsearch{
+      float: right;
+      margin-right:0;
+      padding-top:0.6%;
+      padding-bottom:0.6%;
+      font-size: 12px;
+      margin-top:5%;
+    }
+  .tool{
+    margin-top:3px;
+    font-size:1em;
+  }
+  .utilizator{
+    font-size:0.9em;
+  }
+  .rights{
+    margin-top:3px;
+    font-size:0.9em;
+  }
+  .VisaMaster{
+    margin-top:0;
+  }
+  .footer{
+    height:50px;
+    
+  }
+  .footer-menu{
+    width:100%;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    
+  }
+  .item-footer-menu{
+    font-size:1em;
+    margin-top:0;
+  }
+
+  .plati{
+    width:30%;
+    height:auto;
+    margin-right:5px;
+  }
+  .creare[type=text],.creare[type=password],.creare[type=email],.creare[type=number]
+    {
+      font-size:12px;
+      padding:10px;
+    }
+    .titlucont{
+      margin-left:20px;
+      font-size:1.5em;
+    }
+    .butoncreare{
+      font-size:12px;
+      padding:8px;
+      float:right;
+    }
+    .creare-cont a{
+      font-size:12px;
+    }
+    .creare-cont{
+      font-size:12px;
+    }
+    
+}
+@media only screen and (min-width:331px)
+{
+  .dropdowncont-content {
+    min-width: 12%;
+
+  }
+  .dropdowncont-content a {
+
+    font-size:1em;
+    padding: 8px 8px;
+  }
+  .dropbtnprod
+    {
+      font-size:1em;
+      margin-top:5px;
+    }
+  .tool{
+    margin-top:8px;
+    font-size:1em;
+  }
+  .cos{
+    font-size:0.8em;
+  }
+  .cart{
+    height:10%;
+  }
+  .logodiv{
+    width:40%;
+  }
+  .search{
+    width:60%;
+  }
+  .logo{
+    width:90px;
+    margin-top:5px;
+  }
+  .plati{
+    height:100%;
+    margin-right:1px;
+  }
+  .utilizator{
+    font-size:0.8em;
+  }
+  .toolbar{
+    height:30px;
+  }
+  .MandarineM{
+    height:100px;
+  }
+    .barasearch[type=text]{
+      padding: 0.2%;
+      font-size: 12px;
+      color:#001A33;
+      width:80%;
+      margin-top:35%;
+    }
+    .buttonsearch{
+      float: right;
+      margin-right:0;
+      padding-top:0.6%;
+      padding-bottom:0.6%;
+      font-size: 12px;
+      margin-top:35%;
+    }
+    .footer{
+      height:60px;
+    }
+    .footer-menu{
+      width:100%;
+      height:20px;
+      display:flex;
+      justify-content:center;
+      
+    }
+    .item-footer-menu{
+      font-size:1em;
+      margin-top:0;
+    }
+    .plati{
+      width:40%;
+      height:auto;
+    }
+    .rights{
+      margin-top:1px;
+    }
+    .creare[type=text],.creare[type=password],.creare[type=email],.creare[type=number]
+    {
+      font-size:15px;
+      padding:10px;
+    }
+    .titlucont{
+      margin-left:20px;
+      font-size:1.7em;
+    }
+    .butoncreare{
+      font-size:13px;
+      float:right;
+    }
+}
+@media only screen and (min-width:768px)
+{
+  
+  .logo{
+    width:105px;
+  }
+  .barasearch[type=text]{
+    margin-top:15%;
+    width:60%;
+    font-size:1.4em;
+
+  }
+  .buttonsearch{
+    margin-top:15%;
+    padding:3%;
+  }
+.footer{
+  height:80px;
+  font-size:1.5em;
+}
+.rights{
+  margin-top:8px;
+}
+.dropbtnprod{
+  font-size:2em;
+  margin-top:0;
+}
+.dropbtncont{
+  font-size:1.8em;
+  padding-bottom:11.5px;
+}
+.plati{
+  width:30%;
+  height:auto;
+}
+.tool{
+  font-size:2em;
+}
+.utilizator{
+  height:40px;
+}
+.cont{
+  font-size:1.8em;
+}
+.toolbar{
+  height:50px;
+}
+.cos{
+  font-size:1.5em;
+}
+.cart{
+  height:20%;
+}
+.creare[type=text],.creare[type=password],.creare[type=email],.creare[type=number]
+    {
+      font-size:20px;
+      padding:10px;
+    }
+    .titlucont{
+      margin-left:20px;
+      font-size:1.7em;
+    }
+    .butoncreare{
+      font-size:20px;
+      float:right;
+    }
+    .creare-cont{
+      font-size:20px;
+    }
+}
+@media only screen and (min-width:992px)
+{
+  .MandarineM{
+    height:165px;
+  }
+  .search{
+      height:140px;
+  }
+  
+  .barasearch[type=text]{
+    font-size: 25px;
+    width:50%;
+    margin-top:85px;
+  }
+  .buttonsearch{
+    padding:10px;
+    margin-top:85px;
+  }
+ .footer{
+   height:100px;
+ }
+
+ .utilizator{
+   height:33px;
+ }
+ .cont{
+   font-size:1.5em;
+   padding:7px;
+ }
+ .logo{
+   margin-left:20px;
+   width:170px;
+ }
+ .rights{
+   margin-top:25px;
+   font-size:1.3em;
+ }
+ .plati{
+   height:60%;
+   width:auto;
+   margin-top:10px;
+ }
+ .tool{
+  font-size:2em;
+  margin-top:0;
+  height:40px;
+}
+ .toolbar{
+   height:40px;
+ }
+ .dropdowncont-content a {
+  font-size:1.5em;
+  padding: 10px 5px;
+}
+ .dropbtncont {
+  font-size:1.5em;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.dropbtnprod{
+  font-size:2em;
+  margin-top:0;
+}
+.dropdownprod-content a {
+  font-size:1.5em;
+  padding: 10px 5px;
+}
+.footer-menu{
+  font-size:1.4em;
+}
+.creare[type=text],.creare[type=password],.creare[type=email],.creare[type=number]
+    {
+      font-size:25px;
+      padding:10px;
+    }
+    .titlucont{
+      margin-left:20px;
+      font-size:1.7em;
+    }
+    .butoncreare{
+      font-size:25px;
+      float:right;
+      margin-bottom:10px;
+      margin-top:30px;
+    }
+    .creare-cont{
+      font-size:25px;
+      height:1100;
+    }
+
+}
+@media only screen and (min-width:1600px)
+{
+  .cos{
+    font-size:2em;
+  }
+  .cart{
+    height:30px;
+  }
+  .MandarineM{
+    height:200px;
+  }
+  .barasearch[type=text]{
+    font-size: 35px;
+    width:80%;
+    margin-top:23%;
+  }
+  .buttonsearch{
+  
+    font-size: 25px;
+    margin-top:23%;
+    padding:1.6%;
+  }
+ .footer{
+   height:110px;
+ }
+ .plati{
+   height:70px;
+ }
+ .utilizator{
+   height:50px;
+ }
+ .cont{
+   font-size:2.5em;
+ }
+ .logo{
+   top:50px;
+   left:15px;
+   width:210px;
+ }
+ .rights{
+   margin-top:35px;
+   font-size:1.7em;
+ }
+ .tool{
+  font-size:3em;
+}
+ .toolbar{
+   height:60px;
+ }
+ .dropdowncont-content a {
+  font-size:2em;
+  padding: 25px 20px;
+}
+ .dropbtncont {
+  font-size:2.5em;
+  padding-top:6px;
+  padding-bottom:6px;
+ } 
+  .dropdownprod-content a {
+    font-size:2em;
+    text-align:center;
+    padding: 25px 20px;
+  }
+   .dropbtnprod {
+    font-size:2.5em;
+    padding-left:25%;
+    padding-right:25%;
+    height:60px;
+  }
+  .footer-menu{
+    font-size:2em;
+  }
+  .creare[type=text],.creare[type=password],.creare[type=email],.creare[type=number]
+    {
+      font-size:35px;
+      padding:10px;
+    }
+    .titlucont{
+      margin-left:20px;
+      font-size:2em;
+    }
+    .butoncreare{
+      font-size:35px;
+      float:right;
+      margin-bottom:10px;
+      margin-top:30px;
+    }
+    .creare-cont{
+      font-size:35px;
+      height:1400px;
+    }
+}
