@@ -1,0 +1,23 @@
+.titleterms{
+    font-size:1.1em;
+    color:#001A33;
+    margin-top:30px;
+    width:100%;
+    text-align:center;
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+.terms{
+    font-size:0.8em;
+    width:80%;
+    margin:0 auto;
+    color:#001A33;
+    margin-top:40px;
+    margin-bottom:30px;
+    border:1px solid #001A33;
+    border-radius:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
