@@ -1,0 +1,45 @@
+@media only screen and (max-width:330px)
+{
+    .card a img {
+        height: 30%;
+    }
+    .titluAbout titlu1,titlu2 {
+        font-size: 17px;
+    }
+
+    .filtre b,[input=checkbox] {
+        font-size: 5px;
+    }
+
+    .filtre {
+        font-size: 5px;
+        margin-top: -20px;
+    }
+    .filtre button{
+        font-size: 10px;
+        margin-right: 60%;
+    }
+
+   .box2 {
+       align-items: stretch;
+   }
+    .card {
+        font-size: 10px;
+        width:100%;
+    }
+
+    .card button {
+      font-size: 10px;
+    }
+    .card p {
+        font-size: 10px;
+    }
+    .card p button {
+        font-size: 10px;
+    }
+
+    .card img {
+        height: 65px;
+    }
+}
+

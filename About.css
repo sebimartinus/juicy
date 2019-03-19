@@ -1,0 +1,61 @@
+.box2 {
+    margin-top:1%;
+    display:inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:2px solid #001A33;
+    border-radius:10px;
+    margin-bottom: 1%;
+  }
+  .titluAbout {
+    font-family: 'Georgia', sans-serif;
+    font-size: 2.8em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    }
+    titlu1 {
+        color: #001a33;
+      }
+      titlu2 {
+        color: #fbb317;
+      }
+
+      hr { 
+        display: block;
+        margin-top: 0.2em;
+        margin-bottom: 1em;
+        color: #001a33;
+        margin-left: 350px;
+        margin-right: 350px;
+        border-style: inset;
+        border-width: 3px;
+      } 
+
+      .continut-stanga {
+        float:left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 50%;
+        text-align: center;
+      }
+      
+      .textdespre{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #001a33;
+        font-size: 1.2em;
+      }
+      .continut-dreapta {
+        width: 50%;
+        float:right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Georgia;
+      }

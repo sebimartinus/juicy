@@ -1,0 +1,300 @@
+
+/* DIANA P */
+
+.Produse-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+.Flex-item {
+  color: white;
+  font-weight: bold;
+ 
+}
+
+
+
+/* Pagina produs */
+
+.price2 {
+  color: #fbb317;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: left;
+}
+.continut-stanga2 {
+  float:left;
+  margin-top: 100px;
+  width: 50%;
+  text-align: center;
+}
+
+.produs {
+  margin-top: 20px;
+}
+
+.box2 {
+  margin-top:1%;
+  display:inline-block;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border:2px solid #001A33;
+  border-radius:10px;
+  margin-bottom: 1%;
+}
+
+
+.filtre {
+  font-family: Georgia;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titlu3 {
+  color: #001a33;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.continut-dreapta2 {
+  width: 50%;
+  background-color: #F9F9F9;
+  float:right;
+}
+
+.titlu-produs {
+  font-family: 'Georgia', sans-serif;
+  font-size: 3em;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 25px;
+  padding: 5px 15px;
+  margin-top: 25px;
+  }
+
+  .titlu-descriere {
+  font-family: 'Georgia', sans-serif;
+  font-size: 1.2em;
+  padding: 5px;
+  display: block;
+ }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.size-product {
+  height: 270px;
+  margin-top: 40px;
+}
+.continut-stanga-prod {
+  width: 30%;
+  text-align: center;
+  margin-top:30px;
+  float: left;
+}
+.continut-mij-prod {
+  padding: 0px 50px 0px 50px;
+  width: 30%;
+  margin-top:30px;
+  text-align: center;
+  display: inline-block;
+}
+.continut-dreapta-prod {
+  width: 30%;
+  text-align: center;
+  float: right;
+}
+
+.continut-stanga {
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+.textdespre{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #001a33;
+  font-size: 1.2em;
+}
+.continut-dreapta {
+  width: 50%;
+  float:right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Georgia;
+}
+.text-align {
+  text-align: center;
+}
+.text-color {
+  color: #001a33;
+}
+
+.text-font {
+  font-family: 'Railway', sans-serif;
+}
+.section {
+  margin-bottom: 5em;
+}
+
+.row3{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.text1 {
+  position: relative;
+  color: #001a33;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 80%;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+p {
+  align: justify;
+}
+/* ABOUT */
+
+hr { 
+  display: block;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+  color: #001a33;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-style: inset;
+  border-width: 3px;
+} 
+.underline {
+  text-decoration: underline;
+  text-decoration-style: double;
+  color: #001A33;
+
+}
+
+.titluAbout {
+  font-family: 'Georgia', sans-serif;
+  font-size: 2.8em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  }
+
+.titlu {
+  font-family: 'Georgia', sans-serif;
+  font-size: 2.5em;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 25px;
+  padding: 5px 15px;
+  margin-top: 50px;
+  }
+  
+  titlu1 {
+    color: #001a33;
+  }
+  titlu2 {
+    color: #fbb317;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+.banner1 {
+  width: 100%;
+  max-width:1400;
+}
+
+/*SEB */
+
+.product {
+    margin-left: -15px;
+    margin-right: -15px;
+    opacity: 0;
+}
+.product_text {
+    text-align: center;
+}
+
+.stanga {
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dreapta {
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Container produs */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(20, 13, 65, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.price {
+  color: #fbb317;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.filtre button {
+  margin-left: 15px;
+  font-family:Georgia;
+  margin-left:100px;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #001a33;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: Georgia;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
