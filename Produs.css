@@ -1,0 +1,76 @@
+.box2 {
+    margin-top:1%;
+    display:inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border:2px solid #001A33;
+    border-radius:10px;
+    margin-bottom: 1%;
+  }
+
+  .produs {
+    margin-top: 20px;
+  }
+  .continut-stanga2 {
+    float:left;
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+  }
+  .continut-dreapta2 {
+    width: 50%;
+    background-color: #F9F9F9;
+    float:right;
+  }
+
+  .titlu-produs {
+    font-family: 'Georgia', sans-serif;
+    font-size: 3em;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 5px 15px;
+    margin-top: 25px;
+    }
+  
+    .titlu-descriere {
+    font-family: 'Georgia', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+    display: block;
+   }
+
+   .price2 {
+    color: #fbb317;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(20, 13, 65, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Georgia;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #001a33;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: Georgia;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }

@@ -1,0 +1,117 @@
+@media only screen and (max-width:330px)
+{
+    .titluAbout titlu1,titlu2 {
+        font-size: 30px;
+    }
+
+    .continut-stanga p{
+        
+        font-size: 0.7em;
+        width: 100%;
+        
+    }
+    .continut-dreapta p {
+      
+        font-size: 0.7em;
+        width: 80%;
+        margin-right: 10px;
+        margin-top: -30px;
+    }
+    .continut-dreapta img {
+        margin-left: 15px;
+        margin-top: -20px;
+    }
+    .continut-stanga img {
+        margin-left: 15px;
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (min-width:331px)
+{
+    .titluAbout titlu1,titlu2 {
+        font-size: 30px;
+    }
+
+    .continut-stanga p {
+        font-size: 0.8em;
+        width: 100%;
+    }
+    .continut-dreapta p {
+        font-size: 0.8em;
+        width:80%;
+        margin-right:10px;
+        margin-top: -30px;
+    }
+
+    .continut-dreapta img {
+        margin-left: 15px;
+        margin-top: -20px;
+    }
+
+    .continut-stanga img {
+        margin-left: 15px;
+        margin-top: -30px;
+    }
+}
+
+@media only screen and (min-width:768px)
+{
+    .titluAbout titlu1, titlu2 {
+        font-size: 40px;
+    }
+
+    .continut-stanga p {
+        font-size: 1.6em;
+        width: 100%;
+    }
+    .continut-dreapta p{
+        font-size: 1.6em;
+        width: 80%;
+        margin-right: 10px;
+        margin-top: -30px;
+    }
+
+    .continut-dreapta img {
+        margin-left: 30px;
+        margin-top:20px;
+    }
+}
+
+@media only screen and (min-width:992px)
+{
+    .continut-stanga {
+        margin-top: 60px;
+    } 
+    .continut-dreapta {
+        margin-top: 60px;
+    }
+
+    hr {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1600px)
+{
+    .titluAbout titlu1, titlu2 {
+        font-size: 60px;
+    }
+
+    .continut-dreapta p {
+        font-size: 2.3em;
+        width: 80%;
+        margin-right: 10px;
+        margin-top: -30px;
+    }
+    .continut-stanga p{
+        font-size: 2.3em;
+        width: 100%;
+    }
+
+    .continut-dreapta img {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
