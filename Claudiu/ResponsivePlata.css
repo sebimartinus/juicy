@@ -1,0 +1,18 @@
+@media only screen and (max-width:330px){
+
+    .linkuri{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:1600px)
+{   
+    .row1, .row2{
+        font-size: 20px;
+    }
+    
+    input[type=submit]{
+        font-size:18px;
+    }
+}

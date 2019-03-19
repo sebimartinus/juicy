@@ -1,0 +1,41 @@
+@media only screen and (max-width:330px)
+{
+    .lista{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-bottom: 0;
+    }
+
+    .listaAdrese{
+         display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-top: 20px;
+        
+        float: left;
+        width: 100%;
+        align-self: stretch;
+      }
+   .linkuri{
+       width: 100%;
+   } 
+   .lista{
+       width: 100%;
+   }
+   .AdaugaAdresa{
+       margin-left: 35%;
+       margin-bottom: 15px;
+       margin-top:0;
+    
+   }
+}
+
+@media only screen and (min-width:1600px)
+{   
+    
+    input[type=submit]{
+        font-size:18px;
+    }
+}
+

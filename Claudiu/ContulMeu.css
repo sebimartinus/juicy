@@ -1,0 +1,51 @@
+
+.listaInfo{
+
+    color: white;
+    background-color: #FBB317;
+    font-size: 75 px;
+    line-height: 74px; 
+    font-weight: 700; 
+    margin: 0 5px 24px; 
+    padding: 10px;  
+    font-family: Georgia; 
+
+}
+.editeazaDatele{
+  float: right;
+}
+
+.dataTable{
+  background-image: linear-gradient(to right bottom,  yellow, orange);
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width:80%;
+}
+.date{
+  width:70%;
+margin:70px;
+}
+
+.linkuri{
+  float: right;
+  margin-top: 20px;
+ 
+ }
+ 
+ .linkuri [type=submit]{
+   margin-right:30px;
+ }
+ .navigation form input{
+  height: 35px;
+  background-color:#001A33;
+  color: white;
+  padding-bottom: 4px;
+  width: 200px;
+  font-family: Georgia;
+}
+
+.titlu{
+  font-size: 25px;
+  font-family: "Times New Roman", sans-serif;
+}

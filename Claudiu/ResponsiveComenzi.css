@@ -1,0 +1,30 @@
+@media only screen and (max-width:330px){
+
+    .linkuri{
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (min-width:992px)
+{
+.paymentsTable{
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (min-width:1600px)
+{
+.paymentsTable{
+    font-size: 30px;
+   
+}
+
+input[type=submit]{
+    font-size: 20px;
+}
+
+
+}

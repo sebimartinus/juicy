@@ -1,0 +1,507 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h5, h6,blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol,
+fieldset, form, label, legend, caption,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  font-family:'Raleway';
+}
+.utilizator { 
+  background-color: #001A33; 
+  text-align: right;
+  position:sticky;
+  margin:0 auto;
+  width: 100%; 
+}
+
+.cont{
+    display:inline-block;
+    font-size:1em;
+    text-decoration:none;
+    color:white;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:10px;
+    padding-left:10px;
+    cursor: pointer;
+    border-right: 1px solid white;
+}
+.cont:hover{
+  background-color:#FBB317;
+  color:white;
+}
+.MandarineM{
+  width:100%;
+  height:250px;
+  background-image:url('PereP.jpg');
+  max-height:250px;
+  display:inline-block;
+
+}
+.logodiv{
+  background-color:transparent;
+  width:20%;
+  height:200px;
+  float:left;
+  
+}
+.search{
+  background-color:transparent;
+  width:80%;
+  float:right;
+  height:100px;
+}
+.cos{
+  background-color:transparent;
+  float:right;
+  height:25px;
+  margin-right:5px;
+  font-size:1em;
+  color:#001A33;
+  text-decoration:none;
+}
+.cart{
+  float:right;
+  height:25px;
+  margin-right:5px;
+}
+
+.cos:hover{
+    background-color:#FBB317;
+    color:white;
+    border-radius:10px;
+}
+.searchbar[type=text]{
+  float: right;
+  margin-top:-50px;
+  font-family:'Raleway';
+  padding: 0.5%;
+  border: 1px solid #001A33;
+  border-radius:20px;
+  font-size: 17px;
+  color:#001A33;
+}
+.buttonsearch{
+  float: right;
+  margin-right:0;
+  padding-top:0.6%;
+  padding-bottom:0.6%;
+  background: #001A33;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius:15px;
+  cursor: pointer;
+
+}
+.toolbar{
+  background-color:#FBB317;
+  display:grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+
+.tool{
+  border-top-right-radius:25px;
+  border-bottom-right-radius:25px;
+  text-align: center;
+  font-size:1.5em;
+  width:100%;
+  cursor: pointer;
+  text-decoration:none;
+  color:white;
+}
+.tool:last-child{
+  border-right:none;
+}
+.cont:last-child{
+  border-right:none;
+}
+.logo{
+  float:left;
+  max-width: 400px;
+  height:auto;
+  min-width:50px;
+  width:8.1%;
+	top: 20px;
+  left: 10px;
+}
+
+a:hover{
+  background-color:white;
+  color:black;
+}
+
+.footer{
+  margin:0 auto;
+  width: 100%;
+  max-width:1400;
+  height:100px;
+  font-size:1em;
+  background-color:#001A33;
+  color: white;
+  text-align: center;
+}
+.footer-menu{
+  width:100%;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  
+}
+.item-footer-menu{
+  flex:1;
+  font-size:1.8em;
+  margin-top:10px;
+  width:100%;
+}
+.item-footer-menu a{
+  color:#FBB317;
+  width:100%;
+  font-size:3m;
+  text-decoration:none;
+}
+.footer-menu a:hover{
+  width:100%;
+  background-color:#FBB317;
+  color:#001A33;
+}
+.rightstext{
+  float:left;
+  width:80%;
+  height:auto
+}
+.rights{
+  margin-top:9px;
+  margin-left:25%;
+}
+.VisaMaster{
+  float:right;
+  width:20%;
+  height:auto;
+}
+.plati{
+  float:right;
+  width:30px;
+  height:35px;
+  margin-right:5px;
+}
+/*Buton contul meu*/
+.dropbtncont {
+  background-color: #FBB317;
+  color: white;
+  font-family:'Raleway';
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-right:10px;
+  padding-left:10px;
+  font-size: 1em;
+  border: none;
+}
+
+/* Div pentru dropdown content*/
+.dropdowncont {
+
+  position: relative;
+  text-align:center;
+  display: inline-block;
+}
+
+/* Optiuni dropdown */
+.dropdowncont-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdowncont-content a {
+  color: black;
+  font-family:'Raleway';
+  border-bottom:1px solid #001A33;
+  font-size:0.9em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdowncont-content a:last-child{
+  border-bottom:none;
+}
+/* Culori link*/
+.dropdowncont-content a:hover {background-color: #FBB317;}
+
+/* Display meniu drop */
+.dropdowncont:hover .dropdowncont-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdowncont:hover .dropbtncont {background-color: #001A33;}
+
+/*Buton produse*/
+.dropbtnprod {
+  background-color: #FBB317;
+  color: white;
+  font-family:'Raleway';
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-right:10px;
+  padding-left:10px;
+  font-size: 1.5em;
+  border: none;
+}
+
+/* Div pentru dropdown produse*/
+.dropdownprod {
+
+  position: relative;
+  text-align:center;
+  display: inline-block;
+}
+
+/* Optiuni dropdown produse */
+.dropdownprod-content {
+  top:40px;
+  left:34px;
+  width:80%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Linkuri din dropdown prod */
+.dropdownprod-content a {
+  color: black;
+  font-family:'Raleway';
+  border-bottom:1px solid #001A33;
+  font-size:0.9em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownprod-content a:last-child{
+  border-bottom:none;
+}
+/* Culori link*/
+.dropdownprod-content a:hover {background-color: #FBB317;}
+
+/* Display meniu drop */
+.dropdownprod:hover .dropdownprod-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownprod:hover .dropbtnprod {
+  background-color: #001A33;
+  height:100%;
+  width:100%;
+}
+.box {
+  background-color:rgba(255, 255, 255, 0.9);
+  width: 100%;
+  position:relative;
+  display:inline-block;
+  font-family:'Raleway';
+  
+}
+.boximage{
+  float:left;
+  width:50%;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+.boxtext{
+  float:right;
+  width:50%;
+  margin-top:30px;
+  margin-bottom:20px;
+  background-color:#001A33;
+  height:377px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+ 
+}
+.bigtitle{
+  margin-top:20px;
+  text-transform:uppercase;
+  text-align:center;
+  width:100%;
+  background-color:rgba(255, 255, 255, 0.9);
+  color:#001A33;
+}
+.bigtitle span{
+  color:#FBB317;
+}
+.underbigtitle{
+  width:100%;
+  margin-top:5px;
+  text-align:center;
+  font-size:0.5em;
+  color:#001A33;
+
+}
+.btext{
+  width:80%;
+  margin:10%;
+  color:white;
+  font-size:0.7em;
+  background-color:orange;
+  
+}
+.boxtitle{
+  width:80%;
+  font-size:0.9em;
+  margin-left:10%;
+  margin-right:10%;
+  text-transform:uppercase;
+  margin-top:40px;
+  text-align:center;
+  color:white;
+}
+.boxtitle span{
+  color:#FBB317;
+}
+.firstext{
+  text-align:center;
+}
+.descriere{
+  width:80%;
+  background-color:rgba(255, 255, 255, 0.9);
+  margin-left:9.9%;
+  margin-right:9.9%;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:0.8em;
+  border:1px solid #001A33;
+  border-radius:25px;
+  display:inline-block;
+}
+.col0{
+  float:left;
+  width:40%;
+  text-align:center;
+  color:#001A33;
+  text-transform:uppercase;
+  font-size:1em;
+  margin-top:20px;
+}
+.col1{
+  float:right;
+  text-align:center;
+  width:40%;
+  text-transform:uppercase;
+  color:#001A33;
+  margin-top:20px;
+}
+.col2{
+  float:left;
+  width:40%;
+  margin-top:30px;
+  font-size:0.9em;
+  text-align:center;
+}
+.col3{
+  margin-top:30px;
+  font-size:0.9em;
+  float:right;
+  width:40%;
+  text-align:center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(20, 13, 65, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Georgia;
+}
+
+.price {
+  color: #fbb317;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #001a33;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: Georgia;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.continut-stanga-prod {
+  width: 30%;
+  text-align: center;
+  margin-top:30px;
+  float: left;
+}
+.continut-mij-prod {
+  padding: 0px 50px 0px 50px;
+  width: 30%;
+  margin-top:30px;
+  text-align: center;
+  display: inline-block;
+}
+.continut-dreapta-prod {
+  width: 30%;
+  margin-top:30px;
+  text-align: center;
+  float: right;
+}
+
+
+
+

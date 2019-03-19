@@ -1,0 +1,40 @@
+.listaproduse {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+  }
+
+
+li { 
+    list-style-type: none;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    background: orange;
+    color: #fff;
+    border-radius: 25px;
+  
+  }
+  
+  h4 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .TextSuc {
+    font-size: 25px; 
+    line-height: 1.4rem;
+    margin-top: 15px;
+  }
+
+  .PozaSuc{
+    float: right;
+    height: 250px;
+  }
+
+  .DetaliiText{
+    float: left;
+  }
