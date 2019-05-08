@@ -1,0 +1,754 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+  max-width:1400px;
+  margin:0 auto;
+  font-family:'Raleway';
+}
+.utilizator { 
+  background-color: #001A33; 
+  text-align: right;
+  position:sticky;
+  margin:0 auto;
+  width: 100%; 
+}
+.AdminMesaj{
+	color:#001A33;
+	font-size:1.3em;
+	height:20px;
+	text-align:right;
+	width:30%;
+	margin-left:69%;
+	margin-top:5px;
+}
+.cont{
+    display:inline-block;
+    font-size:1em;
+    text-decoration:none;
+    color:white;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right:10px;
+    padding-left:10px;
+    cursor: pointer;
+    border-right: 1px solid white;
+}
+.cont:hover{
+  background-color:#FBB317;
+  color:white;
+}
+.MandarineM{
+  width:100%;
+  height:150px;
+  background-image:url('PereP.jpg');
+  max-height:250px;
+  display:inline-block;
+
+}
+.logodiv{
+  background-color:transparent;
+  width:40%;
+  height:400px;
+  float:left;
+}
+.logo{
+  float:left;
+  max-width: 400px;
+  height:auto;
+  min-width:50px;
+  width:25%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.search{
+  background-color:transparent;
+  width:60%;
+  float:right;
+  height:100px;
+}
+.searchbar[type=text]{
+  float: right;
+  margin-top:105px;
+  font-family:'Raleway';
+  padding: 0.5%;
+  border: 1px solid #001A33;
+  border-radius:20px;
+  font-size: 17px;
+  color:#001A33;
+}
+.buttonsearch{
+  float: right;
+  margin-top:105px;
+  padding-top:0.6%;
+  padding-bottom:0.6%;
+  background: #001A33;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius:15px;
+  cursor: pointer;
+
+}
+.toolbar{
+  background-color:#FBB317;
+  display:grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+
+.tool{
+  border-top-right-radius:25px;
+  border-bottom-right-radius:25px;
+  text-align: center;
+  font-size:1.5em;
+  width:100%;
+  cursor: pointer;
+  text-decoration:none;
+  color:white;
+}
+.tool:last-child{
+  border-right:none;
+}
+.cont:last-child{
+  border-right:none;
+}
+
+
+a:hover{
+  background-color:white;
+  color:black;
+}
+.footer{
+  margin:0 auto;
+  width: 100%;
+  max-width:1400;
+  height:100px;
+  font-size:1em;
+  background-color:#001A33;
+  color: white;
+  text-align: center;
+}
+.footer-menu{
+  width:100%;
+  height:50px;
+  display:flex;
+  justify-content:center;
+  
+}
+.item-footer-menu{
+  flex:1;
+  font-size:1.8em;
+  margin-top:10px;
+  width:100%;
+}
+.item-footer-menu a{
+  color:#FBB317;
+  width:100%;
+  font-size:3m;
+  text-decoration:none;
+}
+.footer-menu a:hover{
+  width:100%;
+  background-color:#FBB317;
+  color:#001A33;
+}
+.rightstext{
+  float:left;
+  width:80%;
+  height:auto
+}
+.rights{
+  margin-top:9px;
+  margin-left:25%;
+}
+.VisaMaster{
+  float:right;
+  width:20%;
+  height:auto;
+}
+.plati{
+  float:right;
+  width:30px;
+  height:35px;
+  margin-right:5px;
+}
+/*Buton contul meu*/
+.dropbtncont {
+  background-color: #FBB317;
+  color: white;
+  font-family:'Raleway';
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-right:10px;
+  padding-left:10px;
+  font-size: 1em;
+  border: none;
+}
+
+/* Div pentru dropdown content*/
+.dropdowncont {
+
+  position: relative;
+  text-align:center;
+  display: inline-block;
+}
+
+/* Optiuni dropdown */
+.dropdowncont-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdowncont-content a {
+  color: black;
+  font-family:'Raleway';
+  border-bottom:1px solid #001A33;
+  font-size:0.9em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdowncont-content a:last-child{
+  border-bottom:none;
+}
+/* Culori link*/
+.dropdowncont-content a:hover {background-color: #FBB317;}
+
+/* Display meniu drop */
+.dropdowncont:hover .dropdowncont-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdowncont:hover .dropbtncont {background-color: #001A33;}
+
+/*Buton produse*/
+.dropbtnprod {
+  background-color: #FBB317;
+  color: white;
+  font-family:'Raleway';
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-right:10px;
+  padding-left:10px;
+  font-size: 1.5em;
+  height:40px;
+  border: none;
+}
+
+/* Div pentru dropdown produse*/
+.dropdownprod {
+
+  position: relative;
+  text-align:center;
+  display: inline-block;
+}
+
+/* Optiuni dropdown produse */
+.dropdownprod-content {
+  top:40px;
+  left:34px;
+  width:80%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Linkuri din dropdown prod */
+.dropdownprod-content a {
+  color: black;
+  font-family:'Raleway';
+  border-bottom:1px solid #001A33;
+  font-size:0.9em;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownprod-content a:last-child{
+  border-bottom:none;
+}
+/* Culori link*/
+.dropdownprod-content a:hover {background-color: #FBB317;}
+
+/* Display meniu drop */
+.dropdownprod:hover .dropdownprod-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdownprod:hover .dropbtnprod {
+  background-color: #001A33;
+  height:100%;
+  width:100%;
+}
+
+.titleaddproduct{
+    width:100%;
+    text-align:center;
+    font-size:1.5em;
+    margin-top:20px;
+    color:#001A33;
+}
+.addproductmenu{
+    border:2px solid #001A33;
+    width:99.8%;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:inline-block;
+    border-radius:15px;
+}
+.addproductitem{
+    width:30%;
+    margin-top:10px;
+    margin-bottom:10px;
+	margin-left:35%;
+    padding:10px;
+    font-size:1em;
+    border-radius:15px;
+    font-family:'Raleway';
+}
+.error{
+    width: 92%; 
+	margin-top:20px;
+    margin-left:10px;
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+/*RESPONSIVE*/
+@media only screen and (max-width:330px)
+{
+
+  .dropdowncont-content {
+    min-width: 10%;
+  }
+  .dropdowncont-content a {
+
+    font-size:0.9em;
+    padding: 5px 8px;
+  }
+  .dropbtnprod{
+    font-size:1em;
+	height:25px;
+  }
+  .MandarineM{
+    height:55px;
+  }
+  
+   .logo{
+      margin-top:-20px;
+      height:45px;
+    }
+    .searchbar[type=text]{
+      padding: 0.2%;
+      font-size: 12px;
+      color:#001A33;
+      width:70%;
+      margin-top:6%;
+    }
+  .buttonsearch{
+      float: right;
+      margin-right:0;
+      padding-top:0.6%;
+      padding-bottom:0.6%;
+      font-size: 12px;
+      margin-top:6%;
+    }
+	.toolbar{
+		height:25px;
+	}
+  .tool{
+    margin-top:3px;
+    font-size:1em;
+  }
+  .utilizator{
+    font-size:0.9em;
+  }
+  .rights{
+    margin-top:3px;
+    font-size:0.9em;
+  }
+  .VisaMaster{
+    margin-top:0;
+  }
+  .footer{
+    height:50px;
+    
+  }
+  .footer-menu{
+    width:100%;
+    height:20px;
+    display:flex;
+    justify-content:center;
+    
+  }
+  .item-footer-menu{
+    font-size:1em;
+    margin-top:0;
+  }
+
+  .plati{
+    width:30%;
+    height:auto;
+    margin-right:5px;
+  }
+  .AdminMesaj{
+	  font-size:0.7em;
+  }
+  .addproductmenu{
+    width:98.9%;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+	.addproductitem{
+    width:80%;
+	margin-left:10%;
+}
+}
+@media only screen and (min-width:331px)
+{
+  .dropdowncont-content {
+    min-width: 12%;
+
+  }
+  .dropdowncont-content a {
+
+    font-size:1em;
+    padding: 8px 8px;
+  }
+  .dropbtnprod
+    {
+      font-size:1em;
+	  height:30px;
+    }
+  .tool{
+    margin-top:8px;
+    font-size:1em;
+  }
+  .logodiv{
+    width:40%;
+  }
+  .search{
+    width:60%;
+  }
+  .logo{
+    width:90px;
+    margin-top:-20px;
+  }
+  .plati{
+    height:100%;
+    margin-right:1px;
+  }
+  .utilizator{
+    font-size:0.8em;
+  }
+  .toolbar{
+    height:30px;
+  }
+  .MandarineM{
+    height:100px;
+  }
+  .searchbar[type=text]{
+      padding: 0.2%;
+      font-size: 12px;
+      color:#001A33;
+      width:60%;
+      margin-top:35%;
+    }
+    .buttonsearch{
+      float: right;
+      margin-right:0;
+      padding-top:0.6%;
+      padding-bottom:0.6%;
+      font-size: 12px;
+      margin-top:35%;
+    }
+    .footer{
+      height:50px;
+    }
+    .footer-menu{
+      width:100%;
+      height:20px;
+      display:flex;
+      justify-content:center;
+      
+    }
+    .item-footer-menu{
+      font-size:1em;
+      margin-top:0;
+    }
+    .plati{
+      width:40%;
+      height:auto;
+    }
+	.AdminMesaj{
+		font-size:0.9em;
+		width:50%;
+		margin-left:49%;
+	}
+	 .addproductmenu{
+    width:98.9%;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+	.addproductitem{
+    width:80%;
+	margin-left:10%;
+}
+}
+@media only screen and (min-width:768px)
+{
+  
+  .logo{
+    width:105px;
+	margin-top:-23px;
+  }
+  .searchbar[type=text]{
+    margin-top:15%;
+    width:60%;
+    font-size:1.4em;
+
+  }
+  .buttonsearch{
+    margin-top:15%;
+    padding:3%;
+  }
+.footer{
+  height:80px;
+  font-size:1.5em;
+}
+.dropbtnprod{
+  font-size:2em;
+  margin-top:0;
+}
+.dropbtncont{
+  font-size:1.8em;
+  padding-bottom:11.5px;
+}
+.plati{
+  width:30%;
+  height:auto;
+}
+.tool{
+  font-size:2em;
+}
+.utilizator{
+  height:35px;
+}
+.dropbtncont{
+	height:35px;
+}
+.cont{
+  font-size:1.8em;
+}
+.toolbar{
+  height:50px;
+}
+.AdminMesaj{
+	font-size:1em;
+}
+}
+@media only screen and (min-width:992px)
+{
+  .MandarineM{
+    height:165px;
+  }
+  .search{
+      height:140px;
+  }
+  
+  .searchbar[type=text]{
+    font-size: 25px;
+    width:50%;
+    margin-top:95px;
+  }
+  .buttonsearch{
+    padding:10px;
+    margin-top:95px;
+  }
+ .footer{
+   height:100px;
+ }
+
+ .utilizator{
+   height:33px;
+ }
+ .cont{
+   font-size:1.5em;
+   padding:7px;
+ }
+ .logo{
+   margin-left:20px;
+   width:170px;
+   margin-top:-20px;
+ }
+ .rights{
+   margin-top:25px;
+   font-size:1.3em;
+ }
+ .plati{
+   height:60%;
+   width:auto;
+   margin-top:10px;
+ }
+ .tool{
+  font-size:2em;
+  margin-top:0;
+  height:40px;
+}
+ .toolbar{
+   height:40px;
+ }
+ .dropdowncont-content a {
+  font-size:1.5em;
+  padding: 10px 5px;
+}
+ .dropbtncont {
+  font-size:1.5em;
+  padding-top:6px;
+  padding-bottom:5px;
+  height:33px;
+}
+.dropbtnprod{
+  font-size:2em;
+  margin-top:0;
+}
+.dropdownprod-content a {
+  font-size:1.5em;
+  padding: 10px 5px;
+}
+.footer-menu{
+  font-size:1.4em;
+}
+}
+@media only screen and (min-width:1600px)
+{
+  .MandarineM{
+    height:200px;
+  }
+  .searchbar[type=text]{
+    font-size: 35px;
+    width:80%;
+    margin-top:23%;
+  }
+  .buttonsearch{
+  
+    font-size: 25px;
+    margin-top:23%;
+    padding:1.6%;
+  }
+ .footer{
+   height:110px;
+ }
+ .plati{
+   height:70px;
+ }
+ .utilizator{
+   height:50px;
+ }
+ .cont{
+   font-size:2.5em;
+ }
+ .logo{
+   top:50px;
+   left:15px;
+   width:210px;
+ }
+ .rights{
+   margin-top:35px;
+   font-size:1.7em;
+ }
+ .tool{
+  font-size:3em;
+}
+ .toolbar{
+   height:60px;
+ }
+ .dropdowncont-content a {
+  font-size:2em;
+  padding: 25px 20px;
+}
+ .dropbtncont {
+  font-size:2.5em;
+  padding-top:6px;
+  padding-bottom:6px;
+ } 
+  .dropdownprod-content a {
+    font-size:2em;
+    text-align:center;
+    padding: 25px 20px;
+  }
+   .dropbtnprod {
+    font-size:2.5em;
+    padding-left:25%;
+    padding-right:25%;
+    height:60px;
+  }
+  .footer-menu{
+    font-size:2em;
+  }
+  .AdminMesaj{
+	  font-size:2em;
+  }
+}
+
+
+
+
+
